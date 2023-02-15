@@ -47,6 +47,12 @@ body {
 /* ========================== Class dùng chung - end ================================ */
 
 /* ========================== Header - Start ================================= */
+.fix-header {
+    background-color: #e6f0ff;
+    position: sticky;
+    top: -38px;
+    z-index: 2;
+}
 .header {
     background-color: #e6f0ff;
     height: 100vh;
@@ -54,7 +60,9 @@ body {
     overflow: hidden;
 }
 .header-nav {
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding-top: 50px;
+    padding-bottom: 12px;
     display: flex;
     align-items: center;
     position: relative;
