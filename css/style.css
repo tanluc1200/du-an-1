@@ -55,7 +55,8 @@ body {
 }
 .header {
     background-color: #e6f0ff;
-    height: 100vh;
+    /* height: 100vh; */
+    height: calc(100vh - 100px);
     position: relative;
     overflow: hidden;
 }
