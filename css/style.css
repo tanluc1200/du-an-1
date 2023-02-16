@@ -54,19 +54,18 @@ body {
 .fix-header {
     background-color: #e6f0ff;
     position: sticky;
-    top: -38px;
+    top: 0px;
     z-index: 2;
 }
 .header {
     background-color: #e6f0ff;
-    /* height: 100vh; */
     height: calc(100vh - 100px);
     position: relative;
     overflow: hidden;
 }
 .header-nav {
     /* padding-top: 38px; */
-    padding-top: 50px;
+    padding-top: 12px;
     padding-bottom: 12px;
     display: flex;
     align-items: center;
